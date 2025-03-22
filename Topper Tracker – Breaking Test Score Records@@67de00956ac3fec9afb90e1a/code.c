@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int trackScores(int scores[],int n,int result[]){
+int trackScores(int arr[],int n,int result[]){
     int highest,lowest,hh=0,lh=0;
     int st=scores[0];
     for(int i=1;i<n;i++){
