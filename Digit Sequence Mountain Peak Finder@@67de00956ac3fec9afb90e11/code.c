@@ -1,4 +1,4 @@
-int mountainPeak(N){
+int mountainPeak(int N){
     int num=N,count=0;
     while (num>0){
         num/10;
