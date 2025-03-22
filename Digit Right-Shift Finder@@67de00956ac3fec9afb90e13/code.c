@@ -1,5 +1,6 @@
 #include <stdio.h>
-int digitRightShifter(int num){
+int digitRightShift(int num)
+{
     int result,temp,count,n;
     n=num/10;
     temp=num%10;
