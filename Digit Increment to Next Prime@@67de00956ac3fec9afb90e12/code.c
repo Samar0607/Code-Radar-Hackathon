@@ -16,9 +16,9 @@ int incrementToPrimeDigits(int N){
                 }
             }}
         res=res*10+a;
-        temp/10;
+        temp=temp/10;
     }
     n=res;
-    
+
     return n;
 }
