@@ -11,6 +11,6 @@ int digitRightShift(int num)
     }
     result=(temp*count)+n;
 
-    return ;
+    return result ;
 
 }
