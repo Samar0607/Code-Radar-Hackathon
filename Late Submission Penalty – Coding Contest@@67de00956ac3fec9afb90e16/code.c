@@ -4,6 +4,7 @@ int calculatePenalty(int a ,int b,int c,int d,int e,int f){
     if (c<f){
         return 0;
     }
+    if (a<d&&b==e||b<e&&c==f) return 0;
     if(a<0||b<0||c<0) return 0;
     if (c>f){
         return 5000; 
