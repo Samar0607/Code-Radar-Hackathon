@@ -5,7 +5,7 @@ void factorialRange(start,end){
             printf("%d",fact);
         }
         else{
-            for(int j=i;j>0;j++){
+            for(int j=i;j>0;j--){
                 fact*=j;
             }
             printf("%d",fact);
