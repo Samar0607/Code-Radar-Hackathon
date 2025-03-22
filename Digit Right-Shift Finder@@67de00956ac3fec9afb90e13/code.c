@@ -9,7 +9,7 @@ int digitRightShift(int num)
         count++;
 
     }
-    cout--;
+    count--;
     result=temp*count+n;
     return result;
 
