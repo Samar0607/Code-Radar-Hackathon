@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int countGlovePairs(int gloves[],int n){
+int countGlovePairs(int arr[],int n){
     int count,z=34634;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
