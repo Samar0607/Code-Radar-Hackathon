@@ -4,7 +4,7 @@
     printf("%d",n);
     int flag =1,least=arr[0],count;
     while(flag){
-        int temp[1000];
+        int temp[100];
         for(int i=0;i<n;i++){
             if (least<arr[i]&&arr[0]>0){
                 least=arr[i];
