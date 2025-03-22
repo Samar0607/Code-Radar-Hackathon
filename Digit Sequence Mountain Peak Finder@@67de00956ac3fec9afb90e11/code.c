@@ -1,6 +1,6 @@
 int mountainPeak(int N)
 {
-    int num=N,count=0;
+    int num=N,count=0,temp=N;
     while (num>0){
         num=num/10;
         count++;
@@ -11,7 +11,7 @@ int mountainPeak(int N)
     if(count<3){
         return -1;
     }
-    if(N%10!=(N/((count-1)*10))){
+    if(temp%10 != (temp/((count-1)*10))){
         return -1;
     }
     else{
