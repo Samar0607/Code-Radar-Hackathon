@@ -8,6 +8,9 @@ int mountainPeak(int N)
     if (count%2==0){
         return -1;
     }
+    if(count==1){
+        return -1;
+    }
     else{
         count++;
         for(int i=1;i<count/2;i++){
