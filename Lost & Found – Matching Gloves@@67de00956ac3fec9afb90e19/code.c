@@ -10,6 +10,7 @@ int countGlovePairs(int gloves[],int n){
         if (gloves[i]==gloves[j]){
             count++;
             gloves[j]=0;
+            gloves[i]=0;
         }
     }}}
 
