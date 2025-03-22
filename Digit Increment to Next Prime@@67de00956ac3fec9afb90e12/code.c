@@ -9,14 +9,11 @@ int incrementToPrimeDigits(int N){
             a=2;
         }
         else{
-        int flag=1;
-        while(flag){
-            for (int i=2;i<a;i++){
+        for (int i=2;i<a;i++){
                 if (a%i==0){
                     a++;
                 }
-            }
-        }}
+            }}
         n=n+a*10;
 
     }
