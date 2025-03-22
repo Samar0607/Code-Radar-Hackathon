@@ -18,7 +18,11 @@ int incrementToPrimeDigits(int N){
         res=res*10+a;
         temp=temp/10;
     }
-    n=res;
+    while (res>0){
+        n=res%10;
+        result=result*10+n;
+        res/10;
+    }
 
-    return n;
+    return result;
 }
