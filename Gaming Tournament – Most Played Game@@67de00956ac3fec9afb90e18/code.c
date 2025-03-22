@@ -13,7 +13,7 @@ int mostPlayedGame (int arr[],int n){
     {
         count=c;
         most=arr[i];
-    }
+    }}
     return most;
 
-}}
+}
