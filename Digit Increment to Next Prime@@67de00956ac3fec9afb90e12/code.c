@@ -9,7 +9,7 @@ int incrementToPrimeDigits(int N){
             a=2;
         }
         else{
-        flag1=1;
+        flag=1;
         while(flag){
             for (int i=2;i<a;i++){
                 if (a%i==0){
