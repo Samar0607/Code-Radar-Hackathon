@@ -2,7 +2,8 @@
 
 int incrementToPrimeDigits(int N){
     int temp=N,n=0,a;
-    while(temp>0){
+    while(temp>0)
+    {
         a=temp%10;
         a++;
         if (a>=8){
@@ -15,7 +16,7 @@ int incrementToPrimeDigits(int N){
                 }
             }}
         n=n+a*10;
-
+        temp/10;
     }
     return n;
 }
