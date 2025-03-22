@@ -1,4 +1,4 @@
-void factorialRange(start,end){
+void factorialRange(int start,int end){
     for (int i=start;i<end;i++){
         int fact=1;
         if (i==0){
