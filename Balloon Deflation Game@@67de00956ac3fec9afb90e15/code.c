@@ -7,7 +7,7 @@ deflateBalloons(int arr[],int n){
         int temp[1000];
         for(int i=0;i<n;i++){
             if (least<arr[i]&&arr[0]>0){
-                least=air[i];
+                least=arr[i];
             }      }
         for(int i=0;i<n;i++){
             if (arr[i]-least>0){
