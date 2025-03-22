@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 void factorialRange(start,end){
     for (int i=start;i<end;i++){
         int fact=1;
@@ -13,6 +11,4 @@ void factorialRange(start,end){
             printf("%d",fact);
         }
     }
-    return 0;
-
 }
