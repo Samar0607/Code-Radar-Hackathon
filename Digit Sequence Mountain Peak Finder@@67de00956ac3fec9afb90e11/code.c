@@ -8,7 +8,7 @@ int mountainPeak(int N)
     if (count%2==0){
         return -1;
     }
-    if(count==1){
+    if(count<3){
         return -1;
     }
     else{
