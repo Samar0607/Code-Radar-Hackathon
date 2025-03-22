@@ -2,7 +2,7 @@
 
 int trackScores(int arr[],int n,int result[]){
     int highest,lowest,hh=0,lh=0;
-    int st=scores[0];
+    int st=arr[0];
     for(int i=1;i<n;i++){
         if (arr[i]>st){
             highest=arr[i];
