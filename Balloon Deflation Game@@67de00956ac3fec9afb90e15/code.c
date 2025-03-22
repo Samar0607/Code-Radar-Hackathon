@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-deflateBalloons(int arr[],int n){
+ void deflateBalloons(int arr[],int n){
     printf("%d",n);
     int flag =1,least=arr[0],count;
     while(flag){
