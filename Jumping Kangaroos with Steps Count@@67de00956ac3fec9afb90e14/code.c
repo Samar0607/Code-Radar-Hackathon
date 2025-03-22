@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int kangaroo(a,b,c,d){
+int kangaroo(int a,int b,int c,int d){
     if(a<c&&b<d){
         return -1;
     }
