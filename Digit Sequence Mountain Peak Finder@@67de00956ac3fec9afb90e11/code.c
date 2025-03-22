@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int mountainPeak(N){
     int num=N,count=0;
     while (num>0){
