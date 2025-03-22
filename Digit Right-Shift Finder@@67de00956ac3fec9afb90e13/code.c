@@ -1,7 +1,7 @@
 #include <stdio.h>
 int digitRightShift(int num)
 {
-    int result,temp,count,n=0;
+    int result=0,temp=0,count=0,n=0;
     n=num/10;
     temp=num%10;
     while (num>0){
