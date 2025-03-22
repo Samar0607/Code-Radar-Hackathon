@@ -1,9 +1,6 @@
 void factorialRange(int start,int end){
     for (int i=start;i<=end;i++){
         int fact=1;
-        if(start>end ||start<0||end<0){
-            printf("'Invalid range'.");
-        }
         if (i==0){
             printf("%d \n",fact);
         }
