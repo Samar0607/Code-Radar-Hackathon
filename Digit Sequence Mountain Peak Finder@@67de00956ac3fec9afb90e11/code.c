@@ -11,9 +11,7 @@ int mountainPeak(int N)
     if(count<3){
         return -1;
     }
-    if(temp%10 != (temp/((count-1)*10))){
-        return -1;
-    }
+
     else{
         count++;
         for(int i=1;i<count/2;i++){
