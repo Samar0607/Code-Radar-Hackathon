@@ -7,7 +7,7 @@ int mostPlayedGame (int arr[],int n){
         for(int j=0;j<n;j++){
             c++;
         }
-    }
+    
     if(count < c){
         count=c;
         most=arr[i];
