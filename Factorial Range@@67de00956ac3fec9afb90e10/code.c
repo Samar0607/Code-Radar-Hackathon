@@ -1,5 +1,5 @@
 void factorialRange(int start,int end){
-    for (int i=start;i<end;i++){
+    for (int i=start;i<=end;i++){
         int fact=1;
         if (i==0){
             printf("%d \n",fact);
