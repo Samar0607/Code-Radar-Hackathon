@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int incrementToPrimeDigits(int N){
-    int temp=N,n=0,a;
+    int temp=N,n=0,a,res=0,result=0;
     while(temp>0)
     {
         a=temp%10;
@@ -15,8 +15,7 @@ int incrementToPrimeDigits(int N){
                     a++;
                 }
             }}
-        n=n+a*10;
-        temp=temp/10;
+        res=res*10+a;
     }
     return n;
 }
