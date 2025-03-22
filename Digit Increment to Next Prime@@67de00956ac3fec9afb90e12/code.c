@@ -21,7 +21,7 @@ int incrementToPrimeDigits(int N){
     while (res>0){
         n=res%10;
         result=result*10+n;
-        res/10;
+        res=res/10;
     }
 
     return result;
